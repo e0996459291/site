@@ -1,0 +1,42 @@
+body {
+	     width: 500px;
+            margin: 0;
+            padding: 0 10px;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+}
+
+		nav li {
+    		list-style-type: none; /* Убираем маркеры */
+   		}
+   		nav ul {
+    		margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    		padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+   		}
+
+	table {
+             width: 350px;
+            border: 2px solid darkgray;
+            border-collapse: collapse;
+        } 
+caption {
+            caption-side: bottom;
+            text-align: right;
+            font-weight:bold;
+            font-size: 16px;
+        }
+td, th{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+            text-align: center;
+        }
+th {
+            background-color: powderblue;
+        }
+
+.inventory {
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+width: 100%;
+margin-top: 25px;
+}

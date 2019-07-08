@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Приклади списків</title>
+	<link rel="shortcut icon" type="image/png" href="../img/lancer_evo.png">
+	<style>
+		nav li {
+    		list-style-type: none; /* Убираем маркеры */
+   		}
+   		nav ul {
+    		margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    		padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+   		}
+   		.topic1 {
+			color: red;
+		}
+		.topic2 {
+			color: yellow;
+		}
+		.topic3 {
+			color: green;
+		}
+		dt {
+			font-style: italic;
+			font-weight: bold;
+		}
+
+	</style>
+</head>
+<body>
+	<a href="../index.html">На старт</a>
+	<nav>	
+	<ul>
+	<li>Знайомство з HTML і CSS
+	<ul>
+		<li><a href="pochatok.html" title="pochatok.html"> Знайомство з тегами, атрибутами тегів</a></li>
+		<li><a href="https://htmlacademy.ru/courses/26" target="_blank" title="Перехід на сайт htmlacademy.ru"> Структура HTML документа</a></li>
+		<li><a href="https://htmlacademy.ru/courses/38" target="_blank" title="Перехід на сайт htmlacademy.ru"> Розмітка текста</a></li>
+		<!-- <li><a href="html/spisky.html" title="Перехід у списки"> Списки</a></li> -->
+		<li><a href="tabs.html" title="Перехід у таблиці"> Таблиці</a></li>
+	</ul>
+	</li>
+	<li>Мультимедіа та гіперпосилання
+		<ul type = "square">
+		<li><a href="links.html" title="Переходимо у Гіперпосилання"> Гіперпосилання</a></li>
+		<li><a href="picture.html" title="Доступ до картинок"> Графічні зображення</a></li>
+		<li><a href="media.html" title="Перехід до дорослого відео, якщо Вам не має 18 років не натискайте"> Відео та звук</a></li>
+		</ul>	
+	</li>
+	</ul>
+	</nav>
+
+	<article>
+		<ol>
+			<li class="topic1">Частина 1</li>
+			<li class="topic2">Частина 2</li>
+			<li class="topic3">Частина 3</li>
+		</ol>
+	</article>
+
+	<article>
+		<ol start = "2">
+			<li class="topic1">Частина 1</li>
+			<li class="topic2">Частина 2</li>
+			<li class="topic3">Частина 3</li>
+		</ol>
+	</article>
+
+	<article>
+		<ol type = "i">
+			<li class="topic1">Частина 1</li>
+			<li class="topic2">Частина 2</li>
+			<li class="topic3">Частина 3</li>
+		</ol>
+	</article>
+
+	<article>
+		<ol type = "I">
+			<li class="topic1">Частина 1</li>
+			<li class="topic2">Частина 2</li>
+			<li class="topic3">Частина 3</li>
+		</ol>
+	</article>
+
+	<article>
+		<ol type = "a" start = "2">
+			<li class="topic1">Частина 1</li>
+			<li class="topic2">Частина 2</li>
+			<li class="topic3">Частина 3</li>
+		</ol>
+	</article>
+
+	<div>
+	<dl>
+		
+		<dt>Тег</dt> 
+           <dd> − це  спеціальний символ розмітки, який застосовується 
+        для вставки різних елементів на веб-сторінку таких як: малюнки, таблиці, 
+        посилання та ін., і для зміни їх виду.</dd> 
+        
+        <dt>HTML-документ</dt> 
+           <dd> − це звичайний текстовий файл, який може містити в
+         собі текст, теги і стилі. Зображення та інші об'єкти зберігаються окремо. 
+         Вміст такого файлу зазвичай називається HTML-кодом.</dd> 
+        
+         <dt>Сайт</dt> 
+            <dd>− це набір окремих веб-сторінок, які пов'язані між 
+        собою посиланнями і єдиним оформленням.</dd> 
+    </dl>
+	</div>
+	<ol>
+		<li>Для невпрорядкованого списку викуристовуємо контейнер <code>&lt;ul&gt;</code>, для кожного пункту, використовуюмо тег <code>&lt;li&gt;</code>.<br> Для впорядкованного списку використовуємо відповідно контейнер <code>&lt;ol&gt;</code>, та для пунктів також використовуюємо тег <code>&lt;li&gt;</code>.</li>
+		<li>Атрибути можна додавати для "маркованого списку" <br> -для маркеру у вигляді кола вокористовує атрибут disc (приклад: <code>&lt;ul type = "disc"&gt;</code>) <br> -для маркеру у вигляді прозорого кола використовуємо атирибут circle (приклад: <code>&lt;ul type = "circle"&gt;</code>)<br> -для квадратного маркеру використовуємо атрибут square (приклад: <code>&lt;ul type = "square"&gt;</code>)</li>
+		<li>Для нумерованого списку, щоб почати нумерацію, не з першої цифри, використовуюмо атрибут start (приклад:  <code>&lt;ol   start = "3"&gt;</code>).</li>
+		<li>Атрибут type тега <code>&lt;ul&gt;</code> відповідає за тип маркеру списку.</li>
+	</ol>	
+</body>
+</html>

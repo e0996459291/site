@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Мультимедіа</title>
+	<link rel="stylesheet" type="img/png" href="../img/lancer_evo.png">
+	<style>
+		nav li {
+    		list-style-type: none; /* Убираем маркеры */
+   		}
+   		nav ul {
+    		margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    		padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+   		}
+   		.topic1 {
+			color: red;
+		}
+		.topic2 {
+			color: yellow;
+		}
+		.topic3 {
+			color: green;
+		}
+		dt {
+			font-style: italic;
+			font-weight: bold;
+		}
+
+	</style>
+</head>
+<body>
+	<a href="../index.html">На старт</a>
+	<nav>	
+	<ul>
+	<li>Знайомство з HTML і CSS
+	<ul>
+		<li><a href="pochatok.html" title="pochatok.html"> Знайомство з тегами, атрибутами тегів</a></li>
+		<li><a href="https://htmlacademy.ru/courses/26" target="_blank" title="Перехід на сайт htmlacademy.ru"> Структура HTML документа</a></li>
+		<li><a href="https://htmlacademy.ru/courses/38" target="_blank" title="Перехід на сайт htmlacademy.ru"> Розмітка текста</a></li>
+		<li><a href="html/spisky.html" title="Перехід у списки"> Списки</a></li>
+		<li><a href="tabs.html" title="Перехід у таблиці"> Таблиці</a></li>
+	</ul>
+	</li>
+	<li>Мультимедіа та гіперпосилання
+		<ul type = "square">
+		<li><a href="links.html" title="Переходимо у Гіперпосилання"> Гіперпосилання</a></li>
+		<li><a href="picture.html" title="Доступ до картинок"> Графічні зображення</a></li>
+		<!-- <li><a href="media.html" title="Перехід до дорослого відео, якщо Вам не має 18 років не натискайте"> Відео та звук</a></li> -->
+		</ul>	
+	</li>
+	</ul>
+	</nav>
+	<audio src="../audio/basta.mp3" controls></audio>
+	<hr>
+	<p><b>Видосик короткометражный</b></p>
+	<div class="video">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/EmeKqS4ab0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<hr>
+	<p><b>Том и Джери</b></p>
+	<div>
+	<video src="../video/videoplayback.mp4" poster="../img/depositphotos_115277032-stock-photo-stafford-puppy-in-studio.jpg" controls></video>
+	</div>
+</body>
+</html>
